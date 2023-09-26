@@ -1,4 +1,4 @@
-1)Write a HTML program for demonstrating Hyperlinks.
+1) Write a HTML program for demonstrating Hyperlinks.
  a. Navigation from one page to another.
  b. Navigation within the page.
 <!DOCTYPE html>
@@ -29,7 +29,9 @@
 </html>
 
 
-2A)Write a HTML program for the demonstration of Lists.
+
+
+2)A) Write a HTML program for the demonstration of Lists.
  a. Unordered List b. Ordered List c. Definition List d. Nested List
 <!DOCTYPE html>
 <html>
@@ -163,6 +165,8 @@
 
 
 
+
+
 3) WRITE A HTML PROGRAM TO DEVELOP A STATIC
 REGISTRATION FORM.
 <html> <head> <title>Registration Form</title>
@@ -214,6 +218,9 @@ value="french">
 
 
 
+
+
+
 4) WRITE A HTML PROGRAM TO DEVELOP A STATIC HOME PAGE
 USING FRAMES
 <!DOCTYPE html>
@@ -238,7 +245,9 @@ USING FRAMES
 
 
 
-5A)Embedded stylesheets:
+
+
+5)A)Embedded stylesheets:
 <html>
 <head>
 <title>Embedded Style sheets</title>
@@ -264,7 +273,7 @@ font-size: 20px;
 
 
 
-5B)extern.css
+5)B)extern.css
 body {
 background-color: blue;
 }
@@ -290,7 +299,7 @@ extern.HTML
 
 
 
-5C)
+5)C)
 <html>
 <head>
 <title>HTML Tables</title>
@@ -323,7 +332,9 @@ WebSites</th>
 
 
 
-6)WRITE A HTML AND CSS CODE TO CREATE A RESPONSIVE NAVIGATION MENU
+
+
+6) WRITE A HTML AND CSS CODE TO CREATE A RESPONSIVE NAVIGATION MENU
 <html lang="en">
    <head>
       <meta charset="UTF-8">
@@ -364,7 +375,9 @@ WebSites</th>
 
 
 
-7)WRITE A CODE TO DEMONSTRATES PATTERN MATCHING USING REGULAR EXPRESSIONS AND SHOWCASES HANDLING ERRORS AND ELEMENT ACCESS IN JAVASCRIPT.
+
+
+7) WRITE A CODE TO DEMONSTRATES PATTERN MATCHING USING REGULAR EXPRESSIONS AND SHOWCASES HANDLING ERRORS AND ELEMENT ACCESS IN JAVASCRIPT.
 <!DOCTYPE html>
 <html>
 <head>
@@ -404,7 +417,9 @@ function matchPattern() {
 
 
 
-8)WRITE A CODE TO DISPLAY CURRENT DATE AND TIME ON WEB PAGE USING HTML,CSS AND JAVASCRIPT
+
+
+8) WRITE A CODE TO DISPLAY CURRENT DATE AND TIME ON WEB PAGE USING HTML,CSS AND JAVASCRIPT
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -461,15 +476,16 @@ function updateTime() {
 
 
 
+
 9) WRITE A JAVASCRIPT PROGRAM TO VALIDATE USER LOGIN PAGE
 <!DOCTYPE html>
 <html>
 <head>
 <title>User Login Validation</title>
 <style>
- .error {
-color: red;
- }
+.error {
+  color: red;
+}
 </style>
 </head>
 <body>
@@ -484,36 +500,38 @@ color: red;
 <button type="button" onclick="validateLogin()">Login</button>
 </form>
 <script>
-function validateLogin() { // Added space
-var username = document.getElementById("username").value;
-var password = document.getElementById("password").value;
-var usernameError = document.getElementById("usernameError"); // Added space
-var passwordError = document.getElementById("passwordError"); // Added space
- // Reset error messages
-usernameError.textContent = "";
-passwordError.textContent = "";
-var isValid = true;
- // Validate username
-if (username.trim() === "") {
-usernameError.textContent = "Username is required.";
-isValid = false;
- } else if (username.includes(" ")) {
-usernameError.textContent = "Username should not have spaces.";
-isValid = false;
- }
- // Validate password
-if (password.trim() === "") {
-passwordError.textContent = "Password is required.";
-isValid = false;
- } else if (password.length < 8 || !/\d/.test(password) || !/[a-zA-Z]/.test(password)) { // Added space
-passwordError.textContent = "Password must be at least 8 characters long and contain both letters and numbers.";
-isValid = false;
- }
- // If all inputs are valid, submit the form
-if (isValid) {
-document.getElementById("loginForm").submit();
- }
- }
+function validateLogin() {
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+  var usernameError = document.getElementById("usernameError");
+  var passwordError = document.getElementById("passwordError"); 
+
+  // Reset error messages
+  usernameError.textContent = "";
+  passwordError.textContent = "";
+  var isValid = true;
+
+  // Validate username
+  if (username.trim() === "") {
+    usernameError.textContent = "Username is required.";
+    isValid = false;
+  } else if (username.includes(" ")) {
+    usernameError.textContent = "Username should not have spaces.";
+    isValid = false;
+  }
+
+  // Validate password
+  if (password.trim() === "") {
+    passwordError.textContent = "Password is required.";
+    isValid = false;
+  } else if (password.length < 8 || !/\d/.test(password) || !/[a-zA-Z]/.test(password)) {
+    passwordError.textContent = "Password must be at least 8 characters long and contain both letters and numbers.";
+    isValid = false;
+  }
+  if (isValid) {
+    alert("Login successful!");
+  }
+}
 </script>
 </body>
 </html>
