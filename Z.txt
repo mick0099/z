@@ -1,8 +1,6 @@
-Program No:1 
-Write a HTML program for demonstrating Hyperlinks.
+1)Write a HTML program for demonstrating Hyperlinks.
  a. Navigation from one page to another.
  b. Navigation within the page.
-Code:
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,8 +28,8 @@ Code:
 </body>
 </html>
 
-Program No:2 
-A)Write a HTML program for the demonstration of Lists.
+
+2A)Write a HTML program for the demonstration of Lists.
  a. Unordered List b. Ordered List c. Definition List d. Nested List
 <!DOCTYPE html>
 <html>
@@ -74,6 +72,7 @@ A)Write a HTML program for the demonstration of Lists.
 </ul>
 </body>
 </html>
+
 2B) WRITE A HTML PROGRAM FOR TIME-TABLE USING TABLES.
 <html>
    <head>
@@ -162,6 +161,8 @@ A)Write a HTML program for the demonstration of Lists.
 </html>
 
 
+
+
 3) WRITE A HTML PROGRAM TO DEVELOP A STATIC
 REGISTRATION FORM.
 <html> <head> <title>Registration Form</title>
@@ -211,6 +212,8 @@ value="french">
 <input type="submit" value="Submit">
 </form> </div> </body> </html>
 
+
+
 4) WRITE A HTML PROGRAM TO DEVELOP A STATIC HOME PAGE
 USING FRAMES
 <!DOCTYPE html>
@@ -231,6 +234,9 @@ USING FRAMES
     </frameset>
 </frameset>
 </html>
+
+
+
 
 5A)Embedded stylesheets:
 <html>
@@ -256,6 +262,8 @@ font-size: 20px;
 </body>
 </html>
 
+
+
 5B)extern.css
 body {
 background-color: blue;
@@ -279,6 +287,8 @@ extern.HTML
     <p>This is a paragraph</p>
 </body>
 </html>
+
+
 
 5C)
 <html>
@@ -309,6 +319,9 @@ WebSites</th>
 </center>
 </body>
 </html>
+
+
+
 
 6)WRITE A HTML AND CSS CODE TO CREATE A RESPONSIVE NAVIGATION MENU
 <html lang="en">
@@ -349,6 +362,8 @@ WebSites</th>
 </html>
 
 
+
+
 7)WRITE A CODE TO DEMONSTRATES PATTERN MATCHING USING REGULAR EXPRESSIONS AND SHOWCASES HANDLING ERRORS AND ELEMENT ACCESS IN JAVASCRIPT.
 <!DOCTYPE html>
 <html>
@@ -385,6 +400,9 @@ function matchPattern() {
 </script>
 </body>
 </html>
+
+
+
 
 8)WRITE A CODE TO DISPLAY CURRENT DATE AND TIME ON WEB PAGE USING HTML,CSS AND JAVASCRIPT
 <html lang="en">
@@ -438,6 +456,10 @@ function updateTime() {
 </script>
 </body>
 </html>
+
+
+
+
 
 9) WRITE A JAVASCRIPT PROGRAM TO VALIDATE USER LOGIN PAGE
 <!DOCTYPE html>
@@ -495,6 +517,11 @@ document.getElementById("loginForm").submit();
 </script>
 </body>
 </html>
+
+
+
+
+
 
 10) WRITE A JAVASCRIPT PROGRAM FOR VALIDATING COLLEGE STUDENT REGISTRATION FORM.
 <!DOCTYPE html>
