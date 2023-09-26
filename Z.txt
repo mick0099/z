@@ -75,32 +75,92 @@ A)Write a HTML program for the demonstration of Lists.
 </body>
 </html>
 2B) WRITE A HTML PROGRAM FOR TIME-TABLE USING TABLES.
-<html> <head> <title>Timetable</title> </head> 
-<body>
-<h1 align="center"><font color="Salmon">Timetable of III
-CSE</font></h1><br>
-<table align="center" border="2" cellspacing="0"
-cellpadding="15"> <tr align="center" valign=="middle">
-<th>DAY</th> <th>I</th> <th>II</th> <th
-rowspan="7"><b>T<br>E<br>A<br><br>B<br>R<br>E<br>A<br>
-K</b></th> <th>III</th> <th>IV</th> <th
-rowspan="7"><b>L<br>U<br>N<br>C<br>H<br><br>B<br>R<br>
-E<br>A<br>K</b></th> <th>V</th><th>VI</th> <th>VII</th>
-</tr> <tr align="center"> <th>MON</th> <td>IS</td>
-<td>WT</td> <td>SEM</td> <td>OOAD</td> <td>SCI</td>
-<td>C#</td> <td>COMP</td> </tr> <tr align="center">
-<th>TUE</th> <td>AP</td> <td>AP Lab</td>
-<td colspan="2">AP Lab</td> <td>WT</td> <td>IS</td>
-<td>OOAD</td> </tr> <tr align="center"> <th>WED</th>
-<td>WT</td> <td>IS</td> <td>C#</td> <td>SCI</td>
-<td colspan="3">MOOC'S</td> </tr> <tr align="center">
-<th>THU</th> <td>IS</td> <td>LIB</td> <td>OOAD</td>
-<td>WT</td> <td colspan="3">WT Lab</td> </tr>
-<tr align="center"> <th>FRI</th> <td>AP</td> <td>AP</td>
-<td>C#</td> <td>OOAD</td> <td colspan="3">C# Lab</td>
-</tr> <tr align="center"> <th>SAT</th> <td>OOAD</td>
-<td>SCI</td> <td>WT</td> <td>SEM</td> <td>AP</td>
-<td>AP</td> <td>C#</td> </tr> </table> </body> </html>
+<html>
+   <head>
+      <title>Timetable</title>
+   </head>
+   <body>
+      <h1 align="center"><font color="Salmon">Timetable of III
+         CSE</font>
+      </h1>
+      <br>
+      <table align="center" border="2" cellspacing="0"
+         cellpadding="15">
+         <tr align="center" valign=="middle">
+            <th>DAY</th>
+            <th>I</th>
+            <th>II</th>
+            <th
+               rowspan="7"><b>T<br>E<br>A<br><br>B<br>R<br>E<br>A<br>
+               K</b>
+            </th>
+            <th>III</th>
+            <th>IV</th>
+            <th
+               rowspan="7"><b>L<br>U<br>N<br>C<br>H<br><br>B<br>R<br>
+               E<br>A<br>K</b>
+            </th>
+            <th>V</th>
+            <th>VI</th>
+            <th>VII</th>
+         </tr>
+         <tr align="center">
+            <th>MON</th>
+            <td>IS</td>
+            <td>WT</td>
+            <td>SEM</td>
+            <td>OOAD</td>
+            <td>SCI</td>
+            <td>C#</td>
+            <td>COMP</td>
+         </tr>
+         <tr align="center">
+            <th>TUE</th>
+            <td>AP</td>
+            <td>AP Lab</td>
+            <td colspan="2">AP Lab</td>
+            <td>WT</td>
+            <td>IS</td>
+            <td>OOAD</td>
+         </tr>
+         <tr align="center">
+            <th>WED</th>
+            <td>WT</td>
+            <td>IS</td>
+            <td>C#</td>
+            <td>SCI</td>
+            <td colspan="3">MOOC'S</td>
+         </tr>
+         <tr align="center">
+            <th>THU</th>
+            <td>IS</td>
+            <td>LIB</td>
+            <td>OOAD</td>
+            <td>WT</td>
+            <td colspan="3">WT Lab</td>
+         </tr>
+         <tr align="center">
+            <th>FRI</th>
+            <td>AP</td>
+            <td>AP</td>
+            <td>C#</td>
+            <td>OOAD</td>
+            <td colspan="3">C# Lab</td>
+         </tr>
+         <tr align="center">
+            <th>SAT</th>
+            <td>OOAD</td>
+            <td>SCI</td>
+            <td>WT</td>
+            <td>SEM</td>
+            <td>AP</td>
+            <td>AP</td>
+            <td>C#</td>
+         </tr>
+      </table>
+   </body>
+</html>
+
 
 3) WRITE A HTML PROGRAM TO DEVELOP A STATIC
 REGISTRATION FORM.
@@ -170,4 +230,369 @@ USING FRAMES
         <frame src="menu.html" name="display">
     </frameset>
 </frameset>
+</html>
+
+5A)Embedded stylesheets:
+<html>
+<head>
+<title>Embedded Style sheets</title>
+<style>
+body{
+background-color: pink;
+}
+h1{
+color: orange;
+text-align: center;
+}
+p {
+font-family: "Times New Roman";
+font-size: 20px;
+}
+</style>
+</head>
+<body>
+<h1>Embedded Style Sheets</h1><br>
+<p>This is a paragraph
+</body>
+</html>
+
+5B)extern.css
+body {
+background-color: blue;
+}
+h1 {
+color: orange; text-align: center;
+}
+p {
+font-family: "Times New Roman"; font-size: 20px;
+}
+
+extern.HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <title>External Style Sheets</title>
+    <link rel="stylesheet" type="text/css" href="extern.css">
+</head>
+<body>
+    <h1>External Style Sheets</h1>
+    <p>This is a paragraph</p>
+</body>
+</html>
+
+5C)
+<html>
+<head>
+<title>HTML Tables</title>
+</head>
+<body bgcolor="pink">
+<center>
+<h1>Creating HTML Tables</h1><br>
+<table border="2" cellpadding="4" cellspacing="4">
+<tr>
+<th colspan="2" style="background-color:red">
+WebSites</th>
+</tr>
+<tr>
+<th style="background-color:blue">MailSites</th>
+<th style="background-color:green">JobSites</th>
+</tr>
+<tr>
+<td style="background-color:grey">Gmail</td>
+<td style="background-color:aqua">Naukri</td>
+</tr>
+<tr>
+<td style="background-color:yellow">Yahoo</td>
+<td style="background-color:purple">JobStreet</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
+
+6)WRITE A HTML AND CSS CODE TO CREATE A RESPONSIVE NAVIGATION MENU
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-
+         scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Navigation</title>
+      <style>
+         .navbar { background-color: black; border-radius: 30px; }
+         .navbar ul { overflow: auto; }
+         .navbar li { float:left; list-style: none; margin: 13px 20px; }
+         .navbar li a { padding: 3px 3px; text-decoration: none;
+         color: white; }
+         .navbar li a:hover { color: red }
+         .search { float: right; color: white; padding: 12px 75px; }
+         .navbar input { border: 2px solid black; border-radius: 14px;
+         padding: 3px 17px; width: 129px; } 
+      </style>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar">
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Contact us</a></li>
+               <div class="search">
+                  <input type="text" name="search" id="search"
+                     placeholder="Search this website"> 
+               </div>
+            </ul>
+         </nav>
+      </header>
+   </body>
+</html>
+
+
+7)WRITE A CODE TO DEMONSTRATES PATTERN MATCHING USING REGULAR EXPRESSIONS AND SHOWCASES HANDLING ERRORS AND ELEMENT ACCESS IN JAVASCRIPT.
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pattern Matching and Error Handling</title>
+</head>
+<body>
+<h1>Pattern Matching and Error Handling</h1>
+<form>
+<label for="inputString">Enter a string:</label>
+<input type="text" id="inputString">
+<button type="button" onclick="matchPattern()">Match Pattern</button>
+</form>
+<div id="result"></div>
+<script>
+function matchPattern() {
+    var inputString = document.getElementById("inputString").value;
+    var pattern = /(\d{3})-(\d{3})-(\d{4})/; // Example pattern for phone number (###-###-####)
+    try {
+        var match = inputString.match(pattern);
+        if (match) {
+            var resultString = "Match found! Full match: " + match[0] + "<br>";
+            resultString += "Group 1: " + match[1] + "<br>";
+            resultString += "Group 2: " + match[2] + "<br>";
+            resultString += "Group 3: " + match[3];
+            document.getElementById("result").innerHTML = resultString;
+        } else {
+            document.getElementById("result").innerHTML = "No match found.";
+        }
+    } catch (error) {
+        document.getElementById("result").innerHTML = "An error occurred: " + error.message;
+    }
+}
+</script>
+</body>
+</html>
+
+8)WRITE A CODE TO DISPLAY CURRENT DATE AND TIME ON WEB PAGE USING HTML,CSS AND JAVASCRIPT
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>JavaScript Dates</title>
+<style>
+ .container {
+   font-size: 23px;
+   background-color: blanchedalmond;
+   border: 2px solid grey;
+   padding: 34px;
+   margin: 4px;
+   text-align: center;
+ }
+ #time {
+   font-weight: bold;
+ }
+</style>
+</head>
+<body>
+<div class="container">
+ Current time is <span id="time"></span>
+</div>
+<script>
+console.log("This is date and time tutorial");
+let now = new Date();
+console.log(now);
+let dt = new Date(1000);
+console.log(dt);
+let newDate = new Date(3020, 4, 6, 9, 3, 2, 34);
+console.log(newDate);
+let yr = newDate.getFullYear();
+console.log("The year is ", yr);
+let dat = newDate.getDate();
+console.log("The date is ", dat);
+let month = newDate.getMonth();
+console.log("The month is ", month);
+let hours = newDate.getHours();
+console.log("The hours is ", hours);
+newDate.setDate(8);
+newDate.setMinutes(29);
+console.log(newDate);
+setInterval(updateTime, 1000);
+function updateTime() {
+  let time = document.getElementById("time");
+  time.innerHTML = new Date();
+}
+</script>
+</body>
+</html>
+
+9) WRITE A JAVASCRIPT PROGRAM TO VALIDATE USER LOGIN PAGE
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Login Validation</title>
+<style>
+ .error {
+color: red;
+ }
+</style>
+</head>
+<body>
+<h1>User Login</h1>
+<form id="loginForm">
+<label for="username">Username:</label>
+<input type="text" id="username" name="username"><br>
+<span id="usernameError" class="error"></span><br>
+<label for="password">Password:</label>
+<input type="password" id="password" name="password"><br>
+<span id="passwordError" class="error"></span><br>
+<button type="button" onclick="validateLogin()">Login</button>
+</form>
+<script>
+function validateLogin() { // Added space
+var username = document.getElementById("username").value;
+var password = document.getElementById("password").value;
+var usernameError = document.getElementById("usernameError"); // Added space
+var passwordError = document.getElementById("passwordError"); // Added space
+ // Reset error messages
+usernameError.textContent = "";
+passwordError.textContent = "";
+var isValid = true;
+ // Validate username
+if (username.trim() === "") {
+usernameError.textContent = "Username is required.";
+isValid = false;
+ } else if (username.includes(" ")) {
+usernameError.textContent = "Username should not have spaces.";
+isValid = false;
+ }
+ // Validate password
+if (password.trim() === "") {
+passwordError.textContent = "Password is required.";
+isValid = false;
+ } else if (password.length < 8 || !/\d/.test(password) || !/[a-zA-Z]/.test(password)) { // Added space
+passwordError.textContent = "Password must be at least 8 characters long and contain both letters and numbers.";
+isValid = false;
+ }
+ // If all inputs are valid, submit the form
+if (isValid) {
+document.getElementById("loginForm").submit();
+ }
+ }
+</script>
+</body>
+</html>
+
+10) WRITE A JAVASCRIPT PROGRAM FOR VALIDATING COLLEGE STUDENT REGISTRATION FORM.
+<!DOCTYPE html>
+<html>
+<head>
+<title>College Student Registration Form</title>
+<script>
+functionvalidateForm() {
+ // Get form values
+var name = document.getElementById("name").value;
+var username = document.getElementById("username").value;
+var password = document.getElementById("password").value;
+var address = document.getElementById("address").value;
+var email = document.getElementById("email").value;
+var gender = document.querySelector('input[name="gender"]:checked');
+var languages = document.querySelectorAll('input[name="languages"]:checked');
+var about = document.getElementById("about").value;
+ // Validate name (required field)
+if (name === "") {
+alert("Name is required");
+return false;
+ }
+ // Validate username (required field and no spaces)
+if (username === "") {
+alert("Username is required");
+return false;
+ }
+if (username.includes(" ")) {
+alert("Username should not contain spaces");
+return false;
+ }
+ // Validate password (8 characters, combination of letters, numbers, and special characters)
+varpasswordRegex = /^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[^a-zA-Z0-9]).{8,}$/;
+if (!passwordRegex.test(password)) {
+alert("Password should be 8 characters long and contain a combination of letters, numbers, and special
+characters");
+return false;
+ }
+ // Validate address (required field)
+if (address === "") {
+alert("Address is required");
+return false;
+ }
+ // Validate email (required field and proper format)
+varemailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+if (!emailRegex.test(email)) {
+alert("Please enter a valid email address");
+return false;
+ }
+ // Validate gender (at least one option should be selected)
+if (!gender) {
+alert("Please select a gender");
+return false;
+ }
+ // Validate languages (at least one option should be selected)
+if (languages.length === 0) {
+alert("Please select at least one language");
+return false;
+ }
+ // Validate about (required field)
+if (about === "") {
+alert("Please write something about yourself");
+return false;
+ }
+ // Display success message
+alert("Registration successful!");
+return true;
+ }
+</script>
+</head>
+<body>
+<h1>College Student Registration Form</h1>
+<form onsubmit="return validateForm()">
+<div><label for="name">Name:</label>
+<input type="text" id="name" name="name" required><br><br></div>
+<div><label for="username">Username:</label>
+<input type="text" id="username" name="username" required><br><br></div>
+<div><label for="password">Password:</label>
+<input type="password" id="password" name="password" required><br><br></div>
+<div><label for="address">Address:</label>
+<input type="text" id="address" name="address" required><br><br></div>
+<div><label for="email">Email:</label>
+<input type="email" id="email" name="email" required><br><br></div>
+<div><label for="gender">Gender:</label>
+<input type="radio" id="male" name="gender" value="male" required>
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female" required>
+<label for="female">Female</label><br><br></div>
+<div><label for="languages">Languages Known:</label>
+<input type="checkbox" id="english" name="languages" value="english">
+<label for="english">English</label>
+<input type="checkbox" id="spanish" name="languages" value="spanish">
+<label for="spanish">Spanish</label>
+<input type="checkbox" id="french" name="languages" value="french">
+<label for="french">French</label><br><br></div>
+<div><label for="about">About Yourself:</label><br>
+<textarea id="about" name="about" required></textarea><br></div>
+<input type="submit" value="Submit">
+</form>
+</body>
 </html>
